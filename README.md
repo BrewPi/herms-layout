@@ -8,3 +8,11 @@ Drawings are made with Edraw max (trial version) and exported with the Windows S
 Feel free to fork the design and modify it under the Creative Commons Attribution-ShareAlike 4.0 International License, found at http://creativecommons.org/licenses/by-sa/4.0/
 
 GitHub issues and pull requests are very welcome.
+
+
+Drawing guidelines used:
+
+* Active elements (open or blocking valves, active pumps) have bold lines, 2pt. 
+* Open valves and active pumps have a solid fill.
+* Lines and elements keep the color of the last fluid that went through them.
+* Copy-paste keeps the position when used from one page to another page. Use this to your advantage.
