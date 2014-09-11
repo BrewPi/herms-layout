@@ -1,0 +1,4 @@
+# Output directory for png images. Ignore everything in this directory.
+*
+# Except this file
+!.gitignore
