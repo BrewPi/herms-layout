@@ -17,9 +17,13 @@ for i in range(numPages):
         page.mediaBox.getUpperRight_y() - 100
     )
     print page.mediaBox.getLowerLeft_x(), page.mediaBox.getLowerLeft_y()
+    if i == 0:
+        upperLeft = page.mediaBox.getUpperLeft_y()/4*3-60
+    else:
+        upperLeft = page.mediaBox.getUpperLeft_y()/4*3+60
     page.mediaBox.lowerLeft = (
         page.mediaBox.getLowerLeft_x(),
-        page.mediaBox.getUpperLeft_y()/4*3+60
+        upperLeft
     )
     output.addPage(page)
 
